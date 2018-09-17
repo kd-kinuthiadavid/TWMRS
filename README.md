@@ -15,6 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 git clone https://github.com/kd-kinuthiadavid/TWMRS.git && cd TWMRS/
+
 ```
 activate virtual environment
 
@@ -25,17 +26,17 @@ activate virtual environment
 
 install the dependencies
 
-	```
-	pip install -r requirements.txt
+```
+pip install -r requirements.txt
 
-	```
+```
 
 run the application
 
-	```
-	python3.6 manage.py runserver
+```
+python3.6 manage.py runserver
 
-	```
+```
 See deployment for notes on how to deploy the project on a live system.
 
 ### User Stories/Journey

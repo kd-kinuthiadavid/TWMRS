@@ -24,10 +24,11 @@ activate virtual environment
   ```
 
 install the dependencies
-	'''
+
+	```
 	pip install -r requirements.txt
 
-	'''
+	```
 
 run the application
 
@@ -36,6 +37,10 @@ run the application
 
 	```
 See deployment for notes on how to deploy the project on a live system.
+
+### User Stories/Journey
+
+* [User Stories](specs.md)
 
 
 ## Deployment
@@ -51,10 +56,10 @@ version 1.0.0
 
 Login may fail as i haven't implemented a user having their own profile, if it does, type the following in url section of your browser to get back to home:
 
-'''
+```
 http://127.0.0.1:8000
 
-'''
+```
 
 ## Authors
 

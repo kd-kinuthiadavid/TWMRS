@@ -1,0 +1,18 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
+{{ block.super}}
+    <h1>Tutafika Mars?</h1>
+{% for image in images %}
+<img class="img-responsive" src="{{image.img_src}}" alt="image">
+<small>photo id: {{image.id}}</small>
+<small>photo sol: {{image.sol}}</small>
+<small>camera used: {{image.camera.name}}</small>
+<small>earth date: {{image.earth_date}}</small>
+<small>rover name: {{image.rover.name}}</small>
+<small>landing date: {{image.rover.landing_date}}</small>
+<small>launching date: {{image.rover.launching_date}}</small>
+<small>status: {{image.rover.status}}</small>
+
+{% endfor %}
+{% endblock %}

@@ -17,10 +17,10 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/kd-kinuthiadavid/TWMRS.git && cd TWMRS/
 
 ```
-activate virtual environment
+create and activate virtual environment
 
   ```
-  source virtual/bin/activate
+  python3.6 -m venv virtual && source virtual/bin/activate
 
   ```
 

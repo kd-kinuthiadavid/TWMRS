@@ -7,7 +7,7 @@ A web application that uses NASA's Mars Rover Photos API to exhibit photos of Ma
 * [Python3.6](https://www.python.org/) - Python is a programming language that lets you work quickly
 and integrate systems more effectively
 * [Django](https://www.djangoproject.com/) - Django is a high-level Python Web framework that encourages rapid    development and clean, pragmatic design
-* [postgresql](https://www.postgresql.org/) - PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. [Installing postgresql on a mac(prerequisites.md)
+* [postgresql](https://www.postgresql.org/) - PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.For [Installing postgresql on a mac](prerequisites.md)
 
 ## Getting Started and Installation
 
